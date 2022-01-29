@@ -1,6 +1,8 @@
-# utility-automation
+# bill-summary-automation
  
--This script automates grabbing monthly utility statements
+-If you live with roommates and need to generate a statement including rent and utilities and any other costs, this is a fast way to grab everything in seconds.
+
+-This script can navigate websites, take screenshots, and add up the numbers and asigns them to variables. It displays them in a console message by default, but you can do anything with them for other presentation methods.
 
 # Prerequisites
 
@@ -31,34 +33,22 @@
 - Open a terminal (in Windows, you can do `CTRL + R` then type `cmd` and hit `ENTER`)
 - Enter the following:
 
-`git clone https://github.com/tylerburleigh/nike-buy-bot.git`
+`git clone https://github.com/tylerburleigh/bill-summary-automation`
 
 2. Make sure you are in the bot directory within the terminal
 
-`cd nike-buy-bot`
+`cd bill-summary-automation`
 
 3. Install the Node.js dependencies
 
 `npm install`
 
-4. Using a text editor, edit the `bot.js` file in the bot directory. In this file, look for the section called `Parameters to set`. These are the parameters to change:
-
-- user
-- pass
-- cv_code
-- size
-- url
-- debug
-- buy
-
 5. Run the bot
 
 Once you've configured the bot, you can run it
 
-`node bot.js`
+`node autobill.js`
 
-Ideally, you would run it right around the time of the drop.
+## Helpful Tips
 
-# Screenshots
-
-The bot works in a series of 9 "rounds", which include loading the shoe page, finding and clicking the desired shoe size, adding it to the cart, logging into your Nike.com account, and submitting an order.
+- If you need to grab a specific element, you can always go to inspect website, right click the element, and copy the selector for direct path.
