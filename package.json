@@ -1,0 +1,18 @@
+{
+  "name": "utility-automation",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {},
+  "dependencies": {
+    "dotenv": "^14.3.2",
+    "fs": "0.0.1-security",
+    "puppeteer": "2.0.0",
+    "puppeteer-extra": "3.1.7",
+    "puppeteer-extra-plugin-stealth": "2.4.5",
+    "simple-node-logger": "18.12.23"
+  },
+  "scripts": {
+    "start": "node autobill.js"
+  },
+  "author": "Han Sol Yoo <hsyoo.work@gmail.com>"
+}
