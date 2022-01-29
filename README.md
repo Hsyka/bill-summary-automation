@@ -8,6 +8,7 @@
 
 - Node.js
 - dotenv
+- puppeteer
 - git command-line tools
 - A text editor (I recommend [Notepad++](https://notepad-plus-plus.org))
 - A Nike.com account with a credit card already saved to the account for pre-filling
@@ -17,9 +18,13 @@
 - Install [Node.js (LTS)](https://nodejs.org/en/download)
 - Test your Node.js installation: First open a terminal (in Windows, you can do `WIN + R` then type `cmd` and hit `ENTER`), then type `node -v` and you should see something like `v10.16.0` (the current version as of right now).
 
+## Install puppeteer
+
+- npm i puppeteer
+
 ## Install dotenv
 
-- Install dotenv npm install dotenv --save
+- npm install dotenv --save
 
 ## Install git
 
